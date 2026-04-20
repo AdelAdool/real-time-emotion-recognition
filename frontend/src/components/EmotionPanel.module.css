@@ -1,0 +1,9 @@
+.panel { background: #111318; border: 1px solid rgba(255,255,255,0.07); border-radius: 16px; padding: 16px; }
+.title { font-size: 11px; font-family: monospace; color: #6b7280; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 12px; }
+.row { display: grid; grid-template-columns: 80px 1fr 48px; align-items: center; gap: 10px; margin-bottom: 8px; }
+.label { font-size: 12px; font-weight: 500; color: #6b7280; font-family: monospace; }
+.label.active { color: #e8eaf0; }
+.track { height: 6px; background: #1a1d26; border-radius: 3px; overflow: hidden; }
+.fill { height: 100%; border-radius: 3px; transition: width 0.3s ease; }
+.pct { font-size: 11px; font-family: monospace; color: #6b7280; text-align: right; }
+.pct.active { color: #e8eaf0; font-weight: 500; }

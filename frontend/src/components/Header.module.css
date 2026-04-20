@@ -1,0 +1,12 @@
+.header { padding: 14px 24px; border-bottom: 1px solid rgba(255,255,255,0.07); display: flex; align-items: center; justify-content: space-between; background: #0a0b0f; position: sticky; top: 0; z-index: 100; }
+.logo { display: flex; align-items: center; gap: 10px; }
+.logoIcon { width: 32px; height: 32px; background: linear-gradient(135deg, #6366f1, #ec4899); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 16px; }
+.logoText { font-size: 16px; font-weight: 700; letter-spacing: -0.02em; }
+.logoSub { font-size: 11px; color: #6b7280; font-family: 'JetBrains Mono', monospace; }
+.controls { display: flex; gap: 8px; align-items: center; }
+.dot { width: 8px; height: 8px; border-radius: 50%; background: #6b7280; display: inline-block; transition: all 0.3s; }
+.live { background: #10b981; box-shadow: 0 0 8px #10b981; animation: pulse 2s infinite; }
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.5} }
+.modeBtn { padding: 6px 14px; border: 1px solid rgba(255,255,255,0.12); background: #1a1d26; color: #6b7280; border-radius: 20px; cursor: pointer; font-size: 12px; font-family: 'Syne', sans-serif; font-weight: 500; transition: all 0.2s; }
+.modeBtn:hover { border-color: #6366f1; color: #818cf8; }
+.active { background: #6366f1; color: white; border-color: #6366f1; }

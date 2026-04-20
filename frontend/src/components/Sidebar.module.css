@@ -1,0 +1,25 @@
+.sidebar { border-left: 1px solid rgba(255,255,255,0.07); overflow-y: auto; display: flex; flex-direction: column; max-height: calc(100vh - 61px); }
+.section { padding: 16px; border-bottom: 1px solid rgba(255,255,255,0.07); }
+.sectionTitle { font-size: 11px; font-family: monospace; color: #6b7280; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 12px; }
+.bigEmotion { text-align: center; padding: 8px 0 4px; }
+.bigIcon { font-size: 52px; line-height: 1; margin-bottom: 8px; display: block; }
+.bigName { font-size: 22px; font-weight: 800; letter-spacing: -0.03em; text-transform: uppercase; }
+.bigConf { font-size: 12px; font-family: monospace; color: #6b7280; margin-top: 4px; }
+.metricGrid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.metricCard { background: #1a1d26; border: 1px solid rgba(255,255,255,0.07); border-radius: 10px; padding: 10px 12px; }
+.metricName { font-size: 10px; font-family: monospace; color: #6b7280; letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 4px; }
+.metricValue { font-size: 20px; font-weight: 700; letter-spacing: -0.02em; }
+.metricSub { font-size: 10px; color: #6b7280; font-family: monospace; margin-top: 2px; }
+.tabRow { display: flex; gap: 4px; margin-bottom: 12px; }
+.tabBtn { padding: 5px 12px; border: 1px solid rgba(255,255,255,0.07); background: transparent; color: #6b7280; border-radius: 6px; cursor: pointer; font-size: 11px; font-family: monospace; transition: all 0.15s; }
+.tabActive { background: #1a1d26; color: #e8eaf0; border-color: rgba(255,255,255,0.12); }
+.insightsList { display: flex; flex-direction: column; gap: 10px; }
+.insightRow { display: flex; align-items: center; gap: 10px; padding: 10px 12px; background: #1a1d26; border-radius: 10px; border: 1px solid rgba(255,255,255,0.07); }
+.insightIcon { font-size: 18px; width: 28px; text-align: center; flex-shrink: 0; }
+.insightLabel { font-size: 10px; color: #6b7280; font-family: monospace; text-transform: uppercase; letter-spacing: 0.05em; }
+.insightVal { font-size: 15px; font-weight: 600; letter-spacing: -0.01em; }
+.insightBar { height: 3px; background: #0a0b0f; border-radius: 2px; margin-top: 4px; overflow: hidden; }
+.insightFill { height: 100%; border-radius: 2px; transition: width 0.4s ease; }
+.exportBtn { width: 100%; padding: 10px; background: #1a1d26; color: #e8eaf0; border: 1px solid rgba(255,255,255,0.12); border-radius: 10px; cursor: pointer; font-size: 12px; font-family: 'Syne', sans-serif; font-weight: 600; transition: all 0.2s; }
+.exportBtn:hover { border-color: #6366f1; color: #818cf8; }
+.privacyNote { font-size: 10px; color: #6b7280; font-family: monospace; text-align: center; padding: 8px 16px 12px; line-height: 1.6; }
