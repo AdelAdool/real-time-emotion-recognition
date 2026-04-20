@@ -1,0 +1,4 @@
+/* App.module.css */
+.app { display: grid; grid-template-rows: auto 1fr; min-height: 100vh; }
+.main { display: grid; grid-template-columns: 1fr 380px; }
+.feedPanel { padding: 20px; display: flex; flex-direction: column; gap: 16px; }
